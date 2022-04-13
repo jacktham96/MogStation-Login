@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  @apply h-screen;
+  background: url('./images/ff14-bg-mobile.png');
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  #root {
+    background: url('./images/ff14-bg-dekstop.png');
+  }
+}
+
