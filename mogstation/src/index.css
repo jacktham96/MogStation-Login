@@ -10,15 +10,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 #root {
   @apply h-screen;
-  background: url('./images/ff14-bg-mobile.png');
+  /*background: url('./images/ff14-bg-mobile.png');*/
   background-repeat: no-repeat;
 }
 
 @media (min-width: 640px) {
   #root {
-    background: url('./images/ff14-bg-dekstop.png');
+    /*background: url('./images/ff14-bg-dekstop.png');*/
   }
 }
 

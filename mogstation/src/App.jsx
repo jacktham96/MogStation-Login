@@ -16,8 +16,15 @@ function App() {
       </header>
 
       {/* Header */}  
-      <div>
-
+      
+      {/* Service Banner */} 
+      <div className='text-center block'>
+        <img className='max-w-[85%] m-auto' src="https://cache.secure.square-enix.com/oauth/content/image/en/ffxiv_mog/mogstation_logo_na.png"/>
+        <div className='text-center'>
+          <p>Various services are available here, including upgrading to the 
+            full version of the game, adding game time, 
+            registering various types of codes, and purchasing additional services.</p>
+        </div>
       </div>
 
     </main>
