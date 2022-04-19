@@ -42,11 +42,11 @@ function TextField({id , label}) {
   const [value ,setValue] = useState('')
 
   return(
-    <div className='relative flex justify-center'>
+    <div className='relative mt-5'>
       
       {/* 當 Label 不是空字串的時候 , Label 消失*/}
       < label htmlFor="id-name" 
-        className={clsx('absolute px-3 left-20' , value !== '' && 'opacity-0')}>
+        className={clsx('absolute px-3 ' , value !== '' && 'opacity-0')}>
         {label}
       </label>
       
