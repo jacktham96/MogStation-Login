@@ -7,7 +7,7 @@ import Logo from './images/images.jpg'
 function App() {
 
   return (
-    <main className='h-full mx-auto'>
+    <main className='h-full m-0 mx-auto'>
       
       {/* Header */} 
       <header className='flex items-center justify-center gap-4 py-4 bg-black w-full'> 
